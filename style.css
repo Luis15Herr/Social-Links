@@ -110,6 +110,7 @@ html {
 @media screen and (max-width: 800px) {
   .container {
     background-color: hsl(0, 0%, 8%);
+    flex-wrap: wrap;
   }
   .card {
     padding-top: 30px;
@@ -136,6 +137,12 @@ html {
     height: 55px;
     margin-bottom: 18px;
     font-size: 18px;
+  }
+  .attribution {
+    position: initial;
+    width: 100%;
+    margin-top: 20px;
+    padding-bottom: 15px;
   }
   .attribution br {
     display: block;
